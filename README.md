@@ -12,7 +12,8 @@ No special installation is required:
  - Activate the plugin through the _Plugins_ menu in WordPress.
 
 ## Options ##
-This plugin does not have any options. After activation all features are useable
+This plugin does not have any options. After activation all features are immediately available.
+.
 
 ## What types of content are supported
 
