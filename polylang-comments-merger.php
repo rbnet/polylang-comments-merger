@@ -17,7 +17,7 @@
  */
 
 // Built using code from no longer maintained WPML Comment Merging plugin: http://wordpress.org/extend/plugins/wpml-comment-merging/
-// Thanks to Rhialto (http://www.rhialto.com) for the hints and Jonathan (https://wordpress.org/support/users/jonathanmoorebcsorg/) for original code.
+// Thanks to Rhialto (http://rhialto.com) for the hints and Jonathan (https://wordpress.org/support/users/jonathanmoorebcsorg/) for original code.
 
 // Safety check
 add_action( 'admin_init', 'rbnet_test_polylang_installation' );
