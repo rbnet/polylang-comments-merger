@@ -22,3 +22,6 @@ Polylang Comments Merger is heavily inspired by the no longer maintained [WPML C
 ## Thanks
  - [Rhialto](http://rhialto.com) and [Jonathan](https://wordpress.org/support/users/jonathanmoorebcsorg/) for their [efforts](https://wordpress.org/support/topic/show-all-comments-for-all-languages/) in the Wordpress support forum.
  - Yves Brendel and Rhialto (again) for French translations.
+
+## Support
+The plugin is released "as is" and no support is given.
