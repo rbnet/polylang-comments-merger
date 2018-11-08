@@ -7,7 +7,7 @@
  * Plugin Name:       Polylang Comments Merger
  * Plugin URI:        http://rbnet.it
  * Description:       Merges comments from all translations of the posts in Polylang. <strong>Absolutely no support!</strong>
- * Version:           0.5.7
+ * Version:           0.5.8
  * Author:            Roberto Bolli
  * Author URI:        http://rbnet.it
  * License:           GPL-2.0+
@@ -66,7 +66,7 @@ function merge_comments($comments, $post_ID) {
 
 	global $polylang;
 
-	$translationIds = $polylang->model->get_translations('post', $post_ID);
+	$translationIds = PLL()->model->post->get_translations($post_ID);
 
 	foreach ( $translationIds as $key=>$translationID ){
 		if( $translationID != $post_ID ) {
@@ -93,7 +93,7 @@ function merge_comment_count($count, $post_ID) {
 	if ( !is_admin() ){
 		global $polylang;
   
-		$translationIds = $polylang->model->get_translations('post', $post_ID);
+		$translationIds = PLL()->model->post->get_translations($post_ID);
     
 		foreach ( $translationIds as $key=>$translationID ){
 			if( $translationID != $post_ID ) {
